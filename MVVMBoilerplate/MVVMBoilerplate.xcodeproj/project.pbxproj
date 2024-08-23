@@ -47,6 +47,9 @@
 		68A1875D2C777BCB00002987 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A1875C2C777BCB00002987 /* Error.swift */; };
 		68A187612C777CFC00002987 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A187602C777CFC00002987 /* Strings.swift */; };
 		68A187652C777DB200002987 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A187642C777DB200002987 /* AppTextField.swift */; };
+		68BEE2872C7856AD00BB76F5 /* Multipart Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEE2862C7856AD00BB76F5 /* Multipart Request.swift */; };
+		68BEE2892C7857E300BB76F5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEE2882C7857E300BB76F5 /* HomeViewModel.swift */; };
+		68BEE28C2C7858E400BB76F5 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEE28B2C7858E400BB76F5 /* AuthRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +95,9 @@
 		68A1875C2C777BCB00002987 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		68A187602C777CFC00002987 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		68A187642C777DB200002987 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		68BEE2862C7856AD00BB76F5 /* Multipart Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multipart Request.swift"; sourceTree = "<group>"; };
+		68BEE2882C7857E300BB76F5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		68BEE28B2C7858E400BB76F5 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 		68A1870E2C776F6F00002987 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				68BEE28A2C7858D100BB76F5 /* Repositories */,
 				68A1874E2C777AB300002987 /* Requests */,
 				68A187512C777ACA00002987 /* Service */,
 			);
@@ -223,6 +230,7 @@
 			children = (
 				68A187492C7771B000002987 /* HomeViewController.swift */,
 				68A1874A2C7771B000002987 /* HomeViewController.xib */,
+				68BEE2882C7857E300BB76F5 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				68A1874F2C777ABC00002987 /* ProductsRequest.swift */,
+				68BEE2862C7856AD00BB76F5 /* Multipart Request.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -279,6 +288,14 @@
 				68A187012C776ECF00002987 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		68BEE28A2C7858D100BB76F5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				68BEE28B2C7858E400BB76F5 /* AuthRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A187612C777CFC00002987 /* Strings.swift in Sources */,
+				68BEE2872C7856AD00BB76F5 /* Multipart Request.swift in Sources */,
 				68A187242C77701800002987 /* UITextView.swift in Sources */,
 				68A187252C77701800002987 /* UIImage.swift in Sources */,
 				68A1874C2C7771B000002987 /* HomeViewController.swift in Sources */,
@@ -384,7 +402,9 @@
 				68A187432C77707900002987 /* NSMutableAttributedString.swift in Sources */,
 				68A187442C77707900002987 /* Formatter.swift in Sources */,
 				68A187452C77707900002987 /* NSError.swift in Sources */,
+				68BEE28C2C7858E400BB76F5 /* AuthRepository.swift in Sources */,
 				68A187462C77707900002987 /* CALayer.swift in Sources */,
+				68BEE2892C7857E300BB76F5 /* HomeViewModel.swift in Sources */,
 				68A187472C77707900002987 /* CAShapeLayer.swift in Sources */,
 				68A187482C77707900002987 /* Date.swift in Sources */,
 				68A186F92C776ECD00002987 /* AppDelegate.swift in Sources */,
